@@ -1,1 +1,4 @@
 Flask==2.3.3
+pytest==7.4.4
+mkdocs==1.5.3
+mkdocs-material==9.5.3
