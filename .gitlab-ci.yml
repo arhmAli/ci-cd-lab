@@ -1,0 +1,15 @@
+stages:
+  - test
+
+test:
+  image: python:3.11
+  stage: test
+  before_script:
+    - python -V
+    - pip install --upgrade pip
+    - pip install -r app/requirements.txt
+    - pip install pytest
+  script:
+    - pytest -q
+  only:
+    - branches

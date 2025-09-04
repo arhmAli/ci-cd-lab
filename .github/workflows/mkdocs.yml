@@ -1,0 +1,7 @@
+site_name: CI-CD Lab
+nav:
+  - Home: index.md
+docs_dir: docs
+site_dir: site
+theme:
+  name: material

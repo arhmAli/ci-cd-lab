@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+.venv/
+env/
+
+# Packaging/build
+build/
+dist/
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# Editor/OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# MkDocs build output (don't commit generated site)
+site/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# GitHub Actions artifacts (if any)
+*.log
+
+# Ignore secrets and credentials
+secrets.yml
+*.key
+*.pem
+*.token
