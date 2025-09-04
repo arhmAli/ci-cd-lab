@@ -10,6 +10,6 @@ test:
     - pip install -r app/requirements.txt
     - pip install pytest
   script:
-    - pytest -q
+    - PYTHONPATH=. pytest -q
   only:
     - branches
